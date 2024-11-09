@@ -1,4 +1,4 @@
-module github.com/liushuangls/go-server-template
+module abober
 
 go 1.23
 

@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"log/slog"
 
-	"github.com/liushuangls/go-server-template/internal/data/ent"
+	"abober/internal/data/ent"
 )
 
 func withTx(ctx context.Context, db *ent.Client, fn func(tx *ent.Tx) error) error {

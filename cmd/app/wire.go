@@ -8,12 +8,12 @@ import (
 
 	"github.com/google/wire"
 
-	"github.com/liushuangls/go-server-template/configs"
-	"github.com/liushuangls/go-server-template/internal/cmd"
-	"github.com/liushuangls/go-server-template/internal/crontab"
-	"github.com/liushuangls/go-server-template/internal/data"
-	"github.com/liushuangls/go-server-template/internal/routes"
-	"github.com/liushuangls/go-server-template/internal/service"
+	"abober/configs"
+	"abober/internal/cmd"
+	"abober/internal/crontab"
+	"abober/internal/data"
+	"abober/internal/routes"
+	"abober/internal/service"
 )
 
 func app(ctx context.Context) (*cmd.App, func(), error) {

@@ -5,8 +5,8 @@ import (
 	"github.com/go-redis/redis_rate/v10"
 	"github.com/google/wire"
 
-	"github.com/liushuangls/go-server-template/configs"
-	v1 "github.com/liushuangls/go-server-template/internal/routes/v1"
+	"abober/configs"
+	v1 "abober/internal/routes/v1"
 )
 
 var ProviderSet = wire.NewSet(

@@ -7,7 +7,7 @@ import (
 
 	"github.com/gin-gonic/gin"
 
-	"github.com/liushuangls/go-server-template/pkg/ecode"
+	"abober/pkg/ecode"
 )
 
 type Resp struct {

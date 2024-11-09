@@ -5,11 +5,11 @@ import (
 
 	"github.com/gin-gonic/gin"
 
-	"github.com/liushuangls/go-server-template/internal/data"
-	entSchema "github.com/liushuangls/go-server-template/internal/data/ent"
-	"github.com/liushuangls/go-server-template/internal/routes/common"
-	"github.com/liushuangls/go-server-template/pkg/ecode"
-	"github.com/liushuangls/go-server-template/pkg/jwt"
+	"abober/internal/data"
+	entSchema "abober/internal/data/ent"
+	"abober/internal/routes/common"
+	"abober/pkg/ecode"
+	"abober/pkg/jwt"
 )
 
 const currentUserInfo = "current-user-info"

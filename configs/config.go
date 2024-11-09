@@ -7,7 +7,7 @@ import (
 
 	"github.com/spf13/viper"
 
-	"github.com/liushuangls/go-server-template/pkg/xslog"
+	"abober/pkg/xslog"
 )
 
 type Config struct {

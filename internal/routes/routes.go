@@ -11,9 +11,9 @@ import (
 	"github.com/gin-gonic/gin"
 	"github.com/go-redis/redis_rate/v10"
 
-	"github.com/liushuangls/go-server-template/configs"
-	"github.com/liushuangls/go-server-template/internal/routes/common"
-	"github.com/liushuangls/go-server-template/internal/routes/middleware"
+	"abober/configs"
+	"abober/internal/routes/common"
+	"abober/internal/routes/middleware"
 )
 
 func NewEngine(conf *configs.Config) (*gin.Engine, error) {

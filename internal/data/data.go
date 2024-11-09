@@ -8,11 +8,11 @@ import (
 	"github.com/go-redis/redis_rate/v10"
 	"github.com/redis/go-redis/v9"
 
-	"github.com/liushuangls/go-server-template/configs"
-	"github.com/liushuangls/go-server-template/internal/data/ent"
-	"github.com/liushuangls/go-server-template/internal/data/ent/migrate"
-	"github.com/liushuangls/go-server-template/pkg/ecode"
-	"github.com/liushuangls/go-server-template/pkg/entutil"
+	"abober/configs"
+	"abober/internal/data/ent"
+	"abober/internal/data/ent/migrate"
+	"abober/pkg/ecode"
+	"abober/pkg/entutil"
 
 	_ "github.com/go-sql-driver/mysql"
 )

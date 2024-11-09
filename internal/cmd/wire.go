@@ -3,9 +3,9 @@ package cmd
 import (
 	"github.com/google/wire"
 
-	"github.com/liushuangls/go-server-template/configs"
-	"github.com/liushuangls/go-server-template/internal/crontab"
-	"github.com/liushuangls/go-server-template/internal/routes"
+	"abober/configs"
+	"abober/internal/crontab"
+	"abober/internal/routes"
 )
 
 var ProviderSet = wire.NewSet(

@@ -8,7 +8,7 @@ import (
 
 	"github.com/golang-jwt/jwt/v5"
 
-	"github.com/liushuangls/go-server-template/pkg/ecode"
+	"abober/pkg/ecode"
 )
 
 const (

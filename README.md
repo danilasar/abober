@@ -10,7 +10,7 @@ This template layout reference: https://go.dev/doc/modules/layout
 // install
 go install golang.org/x/tools/cmd/gonew@latest
 
-gonew github.com/liushuangls/go-server-template your.domain/myprog
+gonew abober your.domain/myprog
 
 // run
 cd myprog

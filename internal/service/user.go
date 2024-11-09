@@ -5,11 +5,11 @@ import (
 	"errors"
 	"time"
 
-	"github.com/liushuangls/go-server-template/internal/data/ent"
-	"github.com/liushuangls/go-server-template/internal/dto/request"
-	"github.com/liushuangls/go-server-template/internal/dto/response"
-	"github.com/liushuangls/go-server-template/pkg/ecode"
-	"github.com/liushuangls/go-server-template/pkg/jwt"
+	"abober/internal/data/ent"
+	"abober/internal/dto/request"
+	"abober/internal/dto/response"
+	"abober/pkg/ecode"
+	"abober/pkg/jwt"
 )
 
 type UserService struct {

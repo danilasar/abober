@@ -1,7 +1,7 @@
 package response
 
 import (
-	"github.com/liushuangls/go-server-template/pkg/jwt"
+	"abober/pkg/jwt"
 )
 
 type UserInfo struct {

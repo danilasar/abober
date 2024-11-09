@@ -11,9 +11,9 @@ import (
 
 	"github.com/sourcegraph/conc"
 
-	"github.com/liushuangls/go-server-template/configs"
-	"github.com/liushuangls/go-server-template/pkg/jwt"
-	"github.com/liushuangls/go-server-template/pkg/xslog"
+	"abober/configs"
+	"abober/pkg/jwt"
+	"abober/pkg/xslog"
 )
 
 type App struct {

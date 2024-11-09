@@ -6,8 +6,8 @@ import (
 	"github.com/gin-gonic/gin"
 	"github.com/go-redis/redis_rate/v10"
 
-	"github.com/liushuangls/go-server-template/internal/routes/common"
-	"github.com/liushuangls/go-server-template/pkg/ecode"
+	"abober/internal/routes/common"
+	"abober/pkg/ecode"
 )
 
 func RateLimitWithIP(limiter *redis_rate.Limiter, limit redis_rate.Limit, prefix string) gin.HandlerFunc {
