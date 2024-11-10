@@ -1,0 +1,29 @@
+App:
+  Addr: ":80"
+  Mode: release
+
+DB:
+  Dialect: postgres
+  DSN: postgres:postgres@tcp(postgres.local)/exampledb?charset=utf8mb4&parseTime=True&loc=Local
+  MaxIdle: 100
+  MaxActive: 100
+  MaxLifetime: 300
+  AutoMigrate: false
+
+Redis:
+  Addr: redis.local:6379
+  DB: 0
+  Password: ""
+
+Log:
+  FileDir: log
+  MaxSize: 100
+  MaxBackups: 5
+  MaxAge: 60
+  Compress: false
+  LocalTime: false
+  AddSource: true
+
+Jwt:
+  Secret: "secret_122"
+  Issuer: "test.com"

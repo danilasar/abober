@@ -1,16 +1,22 @@
 ## Build
-FROM golang:1.21-buster AS build
+FROM golang:latest AS build
 
 WORKDIR /app
 
-COPY . ./
+COPY ./go.mod ./
+COPY ./go.sum ./
+COPY ./makefile ./
 
 RUN make install
 RUN go mod download
+RUN go mod tidy -v
+
+COPY . ./
+
 RUN make build
 
 ## Deploy
-FROM gcr.io/distroless/base-debian11
+FROM gcr.io/distroless/base-debian12
 
 WORKDIR /
 
